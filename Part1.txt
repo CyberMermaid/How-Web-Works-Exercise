@@ -6,7 +6,7 @@ In your own terms, define the following terms:
 - DNS (Domain Name System) is the phonebook of the internet. It translates a hostname into a corresponding IP address. 
 - A query string is part of the URL that assigns values to certain parameters. 
 - Two HTTP verbs are POST and GET. POST is used to create a resource while GET is used to read or retrieve the resource. 
-- What is an HTTP request? 
+- What is an HTTP request? HTTP request is your browser connecting to the server and either asking for a specific resource or sending data to it via a set of request methods.
 - What is an HTTP response?
 - What is an HTTP header? Give a couple examples of request and response headers you have seen.
 - What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
