@@ -1,11 +1,11 @@
 ## **Part One: Solidify Terminology**
 
 In your own terms, define the following terms:
-- HTTP (HyperText Transfer Protocol) is how browsers and servers communicate.
+- HTTP (HyperText Transfer Protocol) is a set of rules that defines how browsers and servers communicate to access resources; resources can be anything from HTML files to data from a database, photos, text, etc. Since an Application Programming Interface (API) is where resources become available, users make requests to these APIs via the HTTP protocol. 
 - URL (Uniform Resource Location) is the technical term for what you type in an address bar.  
 - DNS (Domain Name System) is the phonebook of the internet. It translates a hostname into a corresponding IP address. 
 - A query string is part of the URL that assigns values to certain parameters. 
-- Two HTTP verbs are POST and GET. 
+- Two HTTP verbs are POST and GET. POST is used to create a resource while GET is used to read or retrieve the resource. 
 - What is an HTTP request? 
 - What is an HTTP response?
 - What is an HTTP header? Give a couple examples of request and response headers you have seen.
