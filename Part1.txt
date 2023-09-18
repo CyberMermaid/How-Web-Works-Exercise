@@ -2,13 +2,26 @@
 
 In your own terms, define the following terms:
 - HTTP (HyperText Transfer Protocol) is a set of rules that defines how browsers and servers communicate to access resources; resources can be anything from HTML files to data from a database, photos, text, etc. Since an Application Programming Interface (API) is where resources become available, users make requests to these APIs via the HTTP protocol. 
+
 - URL (Uniform Resource Location) is the technical term for what you type in an address bar.  
+
 - DNS (Domain Name System) is the phonebook of the internet. It translates a hostname into a corresponding IP address. 
 - A query string is part of the URL that assigns values to certain parameters. 
+
 - Two HTTP verbs are POST and GET. POST is used to create a resource while GET is used to read or retrieve the resource. 
 - What is an HTTP request? HTTP request is your browser connecting to the server and either asking for a specific resource or sending data to it via a set of request methods.
-- What is an HTTP response?
-- What is an HTTP header? Give a couple examples of request and response headers you have seen.
-- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
 
+- What is an HTTP response? It is a response from the server that has a HTTP Status Code, header, and an optional message body.
+Source: https://www.webnots.com/what-is-http/
+
+- What is an HTTP header? Give a couple examples of request and response headers you have seen. It is a field of an HTTP request or response that passes additional context and metadata about the request or response. Examples of request headers are Accept: text/html, application/xml, Accept-Charset: utf-8, Accept-Encoding: gzip, Accept-Language: en-US. Examples of response headers are Allow: GET, POST, HEAD; Accept-Ranges: bytes; Content-Location: /example.com.
+
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+After you press the URL and hit enter, the browser using a DNS lookup to figure out what the IP address for the domain. After the IP address has been found, it is used to establish a connection with the server.
+The browser sends an HTTP request which includes the URL, method, headers, & necessary information to the server for the requested resource.
+The server receives and processes the HTTP request. It determines the requested resource based on the URL and any other parameters in the request.
+The server generates an HTTP response containing the requested resource or an error message if the resource is not found.
+The server sends the HTTP response back to the browser.
+The browser receives the HTTP response and starts rendering the page.
+The browser displays the rendered web page to the user, including text, images, and any interactive elements. 
 ##
